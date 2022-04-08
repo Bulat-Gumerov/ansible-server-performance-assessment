@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt -y --install-recommends install virtualenv build-essential python3-pip
+sudo dnf install -y virtualenv build-essential python3-pip
 
 rm testing_env -rf
 virtualenv testing_env --python=python3
